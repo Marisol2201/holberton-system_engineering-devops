@@ -1,1 +1,1 @@
-# holberton-system_engineering-devops
+It allows to know how to use shell
