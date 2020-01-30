@@ -1,2 +1,2 @@
 #!/bin/bash
-usermod -u vagrant betty
+su betty
