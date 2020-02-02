@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd /etc/host
+TYPE /etc/passwd /etc/host
