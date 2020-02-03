@@ -1,1 +1,2 @@
 #!/bin/bash
+Grep -h '^[a-zA-Z]' /dir/subdir/file
