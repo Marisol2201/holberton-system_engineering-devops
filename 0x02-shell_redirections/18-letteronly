@@ -1,2 +1,2 @@
 #!/bin/bash
-Grep -h '^[a-zA-Z]' /dir/subdir/file
+Grep -h '^[a-zA-Z]' /etc/ssh/sshd_config
