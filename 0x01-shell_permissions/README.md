@@ -42,4 +42,4 @@
 - Star Wars:
   - Write a script that will play the StarWars IV episode in the terminal.
 - RTFM:
-  -Create a man page that looks exactly like this one and passes all checks. 
+  - Create a man page that looks exactly like this one and passes all checks. 
