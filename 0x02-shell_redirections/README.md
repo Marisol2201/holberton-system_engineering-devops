@@ -13,7 +13,7 @@
 - Last lines of a file:
   - Display the last 10 lines of /etc/passwd
 - I'd prefer the first ones actually:
- - Display the first 10 lines of /etc/passwd
+  - Display the first 10 lines of /etc/passwd
 - Line #2:
   - Write a script that displays the third line of the file iacta.
 - It is a good file that cuts iron without making a noise:
