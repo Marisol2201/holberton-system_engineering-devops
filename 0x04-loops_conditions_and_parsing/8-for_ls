@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # displays the content of the current directory in a list format
 
-command="$(ls)"
+command=$(ls)
 for iter in $command;
 do
     echo "$iter" | cut -d "-" -f 2
