@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# loops from 1 to 10
+
 counter=1
 finished=10
 while [ $finished -ge $counter ]

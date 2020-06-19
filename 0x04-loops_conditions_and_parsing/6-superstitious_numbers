@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# displays numbers from 1 to 20
+
 counter=1
 finished=20
 while [ $counter -le $finished ]

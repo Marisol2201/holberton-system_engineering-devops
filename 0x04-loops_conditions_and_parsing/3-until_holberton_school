@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# displays Holberton School 10 times
+
 counter=1
 finished=10
 until [ $finished -lt $counter ]
