@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+counter=1
+finished=10
+while [ $finished -ge $counter ]
+do
+  echo "Holberton School"
+  let counter=$counter+1
+done

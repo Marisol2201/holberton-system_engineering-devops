@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+command="$(ls)"
+for iter in $command;
+do
+    echo "$iter" | cut -d "-" -f 2
+done

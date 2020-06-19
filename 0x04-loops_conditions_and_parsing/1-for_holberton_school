@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+for counter in $(seq 1 10);
+do
+    echo "Holberton School"
+    (( counter++ ))
+done
