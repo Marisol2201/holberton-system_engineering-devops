@@ -4,7 +4,11 @@
 # -With a sleep 2 in between each iteration
 # -I am invincible!!! when receiving a SIGTERM signal
 
-trap "I am invincible!!!" SIGTERM
+signal_process() {
+	echo "I am invincible!!!"
+}
+
+trap signal_process SIGTERM
 
 while :
 do
