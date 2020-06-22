@@ -4,11 +4,7 @@
 # -With a sleep 2 in between each iteration
 # -I am invincible!!! when receiving a SIGTERM signal
 
-function sigproc() {
-	echo "I am invincible!!!"
-}
-
-trap sigproc SIGTERM
+trap "I am invincible!!!" SIGTERM
 
 while :
 do
