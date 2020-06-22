@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# displays its own PID.
+# $BASHPID  is the process ID of the current instance of Bash. This is not the
+# same as the $$ variable, but it often gives the same result
+
+echo $$
