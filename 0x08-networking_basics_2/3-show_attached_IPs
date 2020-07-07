@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays all active IPv4 IPs on the machine it’s executed on
+# -I, --all-ip-addresses // Display all network addresses of the host. This
+# ...option enumerates all  configured  addresses  on  all  network
+# ...interfaces. The loopback interface and IPv6 link-local addresses are
+# ...omitted. Contrary to option -i, this option does  not depend  on name
+# ...resolution. Do not make any assumptions about the order of the output
+
+hostname -I

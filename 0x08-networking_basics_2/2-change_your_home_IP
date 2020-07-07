@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# configures an Ubuntu server
+
+new_host=$1
+if [ "$new_host" = "" ]; then
+exit
+fi
+
+sudo cp /etc/hosts /etc/hosts.old
+cat /etc/hosts > hosts/new
+echo '127.0.0.2' '8.8.8.8' >> hosts.new
+sudo mv -f hosts.new /etc/hosts
