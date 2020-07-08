@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # configures an Ubuntu server
 
+if [ -f "/etc/hosts.old]" ]; then
+sudo mv -f /etc/hosts.old /etc/hosts
+fi
+
 new_host=$1
 if [ "$new_host" = "" ]; then
 exit
