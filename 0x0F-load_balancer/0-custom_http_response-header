@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-#Replace a line with multiple lines with sed
-#cambia la line 46 (está en mi location en el file default) por lo q le paso
-#sed -i "s/string_to_replace/$new_string/" file
-#new_string="line number 1\nline number 2\nline number 3"
+#1. configure web-02 to be identical to web-01
+#2. add a custom Nginx response header
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
