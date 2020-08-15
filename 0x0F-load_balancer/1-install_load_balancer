@@ -12,4 +12,4 @@ apt-get install haproxy=1.6.\*
 sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
 echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
 sudo sed -i "\$a frontend hbnb\n\tbind *:80\n\tmode http\n\tdefault_backend backendnodes\n\nbackend backendnodes\n\tbalance roundrobin\n\tserver 1529-web-01 34.75.110.174:80 check\n\tserver 1529-web-02 34.73.253.210:80 check" /etc/haproxy/haproxy.cfg
-sudo service haproxy start
+sudo service haproxy restart
