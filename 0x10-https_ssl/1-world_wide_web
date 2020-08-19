@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#will display information about subdomains
+print_rec ()
+{
+    NAME=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk '{ printf $4 }')
+    IP=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk '{ printf $5 }')
+	echo "The subdomain $2 is a $NAME record and points to $IP"
+}
+
+if [ "$#" == 1 ]
+then
+    print_rec "$1" "www"
+    print_rec "$1" "lb-01"
+    print_rec "$1" "web-01"
+    print_rec "$1" "web-02"
+elif [ "$#" == 2 ]
+then
+    print_rec "$1" "$2"
+fi
