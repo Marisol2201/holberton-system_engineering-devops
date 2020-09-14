@@ -3,3 +3,6 @@
 /0x0A-configuration_management/killmenow
 /0x06-regular_expressions/100-textme.rb
 /0x06-regular_expressions/101-passed_linkedin_regex_challenge.jpg
+/0x15-api/*csv
+/0x15-api/*js
+/0x15-api/*json
