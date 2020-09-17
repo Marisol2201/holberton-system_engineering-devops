@@ -6,3 +6,4 @@
 /0x15-api/*csv
 /0x15-api/*js
 /0x15-api/*json
+__pycache__
