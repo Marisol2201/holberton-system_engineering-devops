@@ -14,7 +14,7 @@ def recurse(subreddit, hot_list=[], after=None):
     top = response.json().get('data', {}).get('children', [])
     after = response.json().get('data', {}).get('after', None)
     if not top:
-        return hot_list
+        return None
     for post in top:
         hot_list.append(post.get('data').get('title'))
     if not after:
